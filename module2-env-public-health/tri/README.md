@@ -1,0 +1,2 @@
+- Toxic release inventory
+- Accessed [rest service](https://awsgispub.epa.gov/arcgis/rest/services/OCSPP/TRI_NA_WhereYouLive_2021/MapServer) via [epa.gov](https://www.epa.gov/toxics-release-inventory-tri-program/mapping-data-tri-releases) on 7/17/2025
