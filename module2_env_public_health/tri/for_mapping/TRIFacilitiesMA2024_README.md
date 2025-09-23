@@ -9,7 +9,7 @@ This readme file was generated on [2025-09-19] by [Anna He]
 **Name**: Anna He  
 **ORCID**: N/A  
 **Institution**: Harvard University ITS MMPS  
-**Address**: Harvard Map Collection, Pusey Library, Harvard Yard, Cambridge, MA 02138
+**Address**: Harvard Map Collection, Pusey Library, Harvard Yard, Cambridge, MA 02138  
 **Email**: anna_he@harvard.edu  
 
 
@@ -41,7 +41,7 @@ This readme file was generated on [2025-09-19] by [Anna He]
 # DATA & FILE OVERVIEW
 
 ## File List: *list all files (or folders, as appropriate for dataset organization) contained in the dataset, with a brief description*
-The most important file to be used for mapping is [TRI_Facilities_MA_2024.gpkg](#data-specific-information-for-filename). I have documented the origin, description, and creation date of all associated TRI files below.
+The most important file to be used for mapping is [TRI_Facilities_MA_2024.gpkg](#data-specific-information-for-tri_facilities_ma_2024gpkg). I have documented the origin, description, and creation date of all associated TRI files below.
 
 * Parent Folder: **tri/source**
 	* File: **MA_1a_2024.txt**
