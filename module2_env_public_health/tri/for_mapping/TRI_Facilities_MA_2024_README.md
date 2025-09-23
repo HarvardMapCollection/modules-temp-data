@@ -26,10 +26,10 @@ This readme file was generated on [2025-09-19] by [Anna He]
 * **Links/relationships to ancillary data sets**: 
 	* **Original source data in text file format as downloaded from the EPA website**: "module2_env_public_health\tri\source\MA_1a_2024.txt"
 	* **Original source data in CSV format**: "module2_env_public_health\tri\source\TRI_MA_2024_full.csv"
-	* **Original source data documentation**: "module2_env_public_health\tri\source\TRI_basic_plus_data_files_documentation_full_2024.pdf"
+	* **Original source data documentation**: "module2_env_public_health\tri\source\TRI_basic_plus_data_files_documentation_full_2024.ip"
 
 	* **Cleaned data in CSV format**: "module2_env_public_health\tri\for_mapping\TRI_MA_2024_for_mapping.csv"
-	* **Cleaned data in shapefile format**: "module2_env_public_health\tri\for_mapping\TRI_Facilities_MA_2024.zip" 
+	* **Cleaned data in shapefile format**: "module2_env_public_health\tri\for_mapping\TRI_Facilities_MA_2024_shp.zip" 
 	* **Cleaned data in geopackage format**: "module2_env_public_health\tri\for_mapping\TRI_Facilities_MA_2024.gpkg"
 * Was data derived from another source?
 	* If yes, list source(s): Yes, MA_1a_2024.txt
@@ -61,7 +61,7 @@ The most important file to be used for mapping is [TRI_Facilities_MA_2024.gpkg](
 		* **Description**: This CSV file was derived from TRI_MA_2024_full.csv. It contains only the relevant columns for mapping, such as ID, facility name, latitude, and longitude. It also contains data on reported chemicals, chemical classifications, and total air emissions.
 		* **Date Created**: 2025-09-08	
 
-	* File: **TRI_Facilities_MA_2024.zip**
+	* File: **TRI_Facilities_MA_2024_shp.zip**
 		* **Description**: This zipped folder contains a shapefile for a layer titled TRI_MA_2024. It was created by converting TRI_MA_2024_for_mapping.csv into spatial data using the latitude and longitude columns. The layer contains 819 point features representing reported TRI facilities in Massachusetts in 2024. The coordinate reference system is EPSG 26986 for NAD83 Massachusetts State Plane Coordinate System, Mainland Zone (Fipszone 2001, meters).
 		* **Date Created**: 2025-09-12
 
@@ -89,7 +89,7 @@ The source data, **MA_1a_2024.txt**, was downloaded from the EPA's 2024 TRI Prel
 1. Download source file and open **MA_1a_2024.txt**
 2. Input: **MA_1a_2024.txt** --> convert to a CSV --> output: **TRI_MA_2024_full.csv**
 3. Input: **TRI_MA_2024_full.csv** --> examine columns using the **TRI_basic_plus_data_files_documentation_full_2024.pdf** and delete unwanted columns in the CSV. Make sure "Latitude" and "Longitude" columns are formatted correctly. --> output: **TRI_Facilities_MA_2024_for_mapping.csv**
-4. Input: **TRI_Facilities_MA_2024_for_mapping.csv** --> open a GIS and convert XY table to point using the lat/long columns. Then project to the coordinate reference system EPSG 26986 and save as a shapefile --> output: **TRI_Facilities_MA_2024.shp** (in a zipped folder)
+4. Input: **TRI_Facilities_MA_2024_for_mapping.csv** --> open a GIS and convert XY table to point using the lat/long columns. Then project to the coordinate reference system EPSG 26986 and save as a shapefile --> output: **TRI_Facilities_MA_2024.shp** (in a zipped folder titled TRI_Facilities_MA_2024_shp.zip)
 5. Input: **TRI_Facilities_MA_2024.shp** --> right-click layer in QGIS: export -> save features as, and save as a geopackage --> output: **TRI_Faciliities_MA_2024.gpkg**
 
 
