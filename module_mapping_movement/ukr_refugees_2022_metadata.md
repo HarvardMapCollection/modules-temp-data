@@ -28,12 +28,14 @@ Institution: Harvard University
 	* country_centroids.gpkg: geopackage of point data for world country centroids in EPSG 4326  with 3-letter ISO_A3 country code and (x, y) coordinates
 
 * **Folder**: ukr_2022_data:
+* source/
 	* persons_of_concern_ukr22.csv: original data downloaded from UNHCR Refugee Data Finder for Ukraine by end of 2022 and appended with _ukr22 in the file name
 	* footnotes_ukr22.csv: contains notes about methodology a/o sources of original refugee data for various countries in 2022
 	* UNHCR_RefugeeDataFinder_Copyright.pdf: licensing info
+
+* for_mapping/
 	* ukr_refugees_2022.gpkg: final geopackage file showing flow lines from Ukraine to various countries of asylum; data represents Ukrainian refugee populations in countries of asylum by end of 2022
 	* ukr_refugees_2022.zip: final zipped shapefile showing flow lines from Ukraine to various countries of asylum; data represents Ukrainian refugee populations in countries of asylum by end of 2022
-
 
 * **Relationship between files, if important**: ukr_refugees_2022 files are the processed, map-ready version of persons_of_concern_ukr22.csv
 
