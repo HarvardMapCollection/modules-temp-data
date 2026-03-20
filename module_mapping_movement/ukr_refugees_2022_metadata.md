@@ -140,17 +140,17 @@ This readme file was generated on [2026-03-09] by [Anna He]
 * **Number of cases/rows**: 78
 * **Variable List**: For the exact definitions below, see https://www.unhcr.org/refugee-statistics/methodology/definition
 	* **Year**: end year until which refugee data is included
-	* **Country of Asylum**: country of asylum
-	* **Country of Origin**: country of origin
-	* **Country of Asylum ISO**: ISO3 country code
-	* **Country of Origin ISO**: ISO3 country code
+	* **AsylumCtry**: country of asylum
+	* **OriginCtry**: country of origin
+	* **AsylumISO**: ISO3 country code for the country of asylum
+	* **OriginISO**: ISO3 country code
 	* **Refugees**: # of refugees; " individuals recognized under the 1951 Convention relating to the Status of Refugees, its 1967 Protocol, the 1969 Organization of African Unity (OAU) Convention Governing the Specific Aspects of Refugee Problems in Africa, the refugee definition contained in the 1984 Cartagena Declaration on Refugees as incorporated into national laws, those recognized in accordance with the UNHCR Statute, individuals granted complementary forms of protection, and those enjoying temporary protection. The refugee population also includes people in refugee-like situations."
-	* **Asylum-seekers**: # of asylum-seekers; "individuals who have sought international protection and whose claims for refugee status have not yet been determined."
+	* **AsylumSeek**: # of asylum-seekers; "individuals who have sought international protection and whose claims for refugee status have not yet been determined."
 	* **IDPs**: # of internationally-displaced persons; "persons or groups of persons who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of, or in order to avoid the effects of armed conflict, situations of generalized violence, violations of human rights or natural or human-made disasters, and who have not crossed an internationally recognized State border
-	* **Other people in need of international protection**": # of other people in need of international protection; "people who are outside their country or territory of origin, typically because they have been forcibly displaced across international borders, who have not been reported under other categories (asylum-seekers, refugees, people in refugee-like situations) but who likely need international protection, including protection against forced return, as well as access to basic services on a temporary or longer-term basis."
-	* **Stateless persons**: # of stateless persons; "defined under the 1954 Convention Relating to the Status of Stateless People as those not considered as nationals by any State under the operation of its law"
-	* **Host community**: # of host communities; "a community that hosts large populations of refugees or internally displaced persons, whether in camps, integrated into households, or independently"
-	* **Others of concern**: # of others of concerns;"individuals who do not necessarily fall directly into any of these groups above but to whom UNHCR has extended its protection and/or assistance services, based on humanitarian or other special grounds"
+	* **IntlProtec**": # of other people in need of international protection; "people who are outside their country or territory of origin, typically because they have been forcibly displaced across international borders, who have not been reported under other categories (asylum-seekers, refugees, people in refugee-like situations) but who likely need international protection, including protection against forced return, as well as access to basic services on a temporary or longer-term basis."
+	* **Stateless**: # of stateless persons; "defined under the 1954 Convention Relating to the Status of Stateless People as those not considered as nationals by any State under the operation of its law"
+	* **Host comm**: # of host communities; "a community that hosts large populations of refugees or internally displaced persons, whether in camps, integrated into households, or independently"
+	* **OfConcern**: # of others of concerns;"individuals who do not necessarily fall directly into any of these groups above but to whom UNHCR has extended its protection and/or assistance services, based on humanitarian or other special grounds"
 	* **x_origin**: x coordinate for the origin country, Ukraine
 	* **y_origin**: y coordinate for the origin country, Ukraine
 	* **x_dest**: x coordinate for the destination country, the country of asylum
