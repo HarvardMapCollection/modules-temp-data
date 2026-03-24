@@ -152,12 +152,12 @@ This readme file was generated on [2026-03-09] by [Anna He]
 	* **IntlProtec**: # of other people in need of international protection; "people who are outside their country or territory of origin, typically because they have been forcibly displaced across international borders, who have not been reported under other categories (asylum-seekers, refugees, people in refugee-like situations) but who likely need international protection, including protection against forced return, as well as access to basic services on a temporary or longer-term basis."
 	* **Stateless**: # of stateless persons; "defined under the 1954 Convention Relating to the Status of Stateless People as those not considered as nationals by any State under the operation of its law"
 	* **Host comm**: # of host communities; "a community that hosts large populations of refugees or internally displaced persons, whether in camps, integrated into households, or independently"
-	* **OfConcern**: # of others of concerns;"individuals who do not necessarily fall directly into any of these groups above but to whom UNHCR has extended its protection and/or assistance services, based on humanitarian or other special grounds"
+	* **OfConcern**: # of others of concerns; individuals who do not necessarily fall directly into any of these groups above but to whom UNHCR has extended its protection and/or assistance services, based on humanitarian or other special grounds"
 	* **x_origin**: x coordinate for the origin country, Ukraine
 	* **y_origin**: y coordinate for the origin country, Ukraine
 	* **x_dest**: x coordinate for the destination country, the country of asylum
 	* **y_dest**: y coordinate for the destination country, the country of asylum
-	* **Refugees_num**: # of refugees; same as "Refugees" column above but in this case converted to a numeric data type
+	* **Refugees_n**: # of refugees; same as "Refugees" column above but in this case converted to a numeric data type
 	
 	https://www.unhcr.org/refugee-statistics/methodology/data-content
 
