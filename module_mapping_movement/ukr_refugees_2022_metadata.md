@@ -129,7 +129,18 @@ This readme file was generated on [2026-03-09] by [Anna He]
 	* Run.
 * Convert "Refugees" column from text (string) to numeric:
 	* Open field calculator, create new field "Refugees_num" as an integer with the expression to_int("Refugees").
-* Outputs: ukr_refugees_2022.gpkg; and ukr_refugees_2022.shp (converted from geopackage). EPSG 4326
+* Outputs: ukr_refugees_2022.gpkg
+* Rename attribute field headers in ukr_refugees_2022.gpkg because the shapefile format has a 10-character limit for field names:
+    * "Country of Asylum" --> "AsylumCtry"
+	* "Country of Origin" --> "OriginCtry"
+	* "Country of Asylum ISO" --> "AsylumISO"
+	* "Country of Origin ISO" --> "OriginISO"
+	* "Asylum-seekers" --> "AsylumSeek"
+	* "Other people in need of international protection" --> "IntlProtec"
+	* "Stateless persons" --> "Stateless"
+	* "Host community" --> "HostCommu"
+	* "Others of concern" --> "OfConcern"
+* Save geopackage. Export layer as shapefile: ukr_refugees_2022.shp, EPSG 4326
 * Symbology: can choose to symbolize line widths by size using the column "Refugee_num", the # of refugees.
 
 * Renamed attribute field names for ukr_refugees_2022.shp because shapefile has a 10-character limit for field names and the original fields got cut off. E.g. Country of = AsylumCtry
