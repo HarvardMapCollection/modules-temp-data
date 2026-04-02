@@ -143,10 +143,8 @@ This readme file was generated on [2026-03-09] by [Anna He]
 * Save geopackage. Export layer as shapefile: ukr_refugees_2022.shp, EPSG 4326
 * Symbology: can choose to symbolize line widths by size using the column "Refugee_num", the # of refugees.
 
-* Renamed attribute field names for ukr_refugees_2022.shp because shapefile has a 10-character limit for field names and the original fields got cut off. E.g. Country of = AsylumCtry
 
-
-# DATA-SPECIFIC INFORMATION FOR: ukr_refugees_2022.shp
+# DATA-SPECIFIC INFORMATION FOR: ukr_refugees_2022.shp and ukr_refugees_2022.gpkg
 *repeat this section for each dataset, folder or file, as appropriate*
 
 * **Number of variables**: 17
